@@ -71,6 +71,11 @@ body{
 	width: 130px;
 }
 
+.img-responsive{
+
+	margin-bottom: 10px;
+}
+
 .smartphone{
 
 	display: inline;
