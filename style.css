@@ -16,13 +16,13 @@ body{
 
 .navbar-brand{
 
-	color: #419641 !important;	
+	color: #419641 !important;
 }
 
 .navbar-toggle{
 
 	color: #FFF !important;
-	background-color: #419641 !important;	
+	background-color: #419641 !important;
 }
 
 .icon-bar{
@@ -39,7 +39,7 @@ body{
 
 	margin-right: 5px !important;
 	margin-left: 5px !important;
-} 
+}
 
 .jumbotron{
 
@@ -53,6 +53,11 @@ body{
 
 	padding-top: 100px;
 	padding-bottom: 30px;
+}
+
+.btn-group{
+
+	font-style: italic;
 }
 
 #more-info{
