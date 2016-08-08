@@ -1,8 +1,14 @@
 //CSS StyleSheet
 
+*{
+
+	font-size: 17px !important;
+}
+
 body{
 
 	padding-top: 80px !important;
+	font-size: 17px !important;
 }
 
 #mylogo{
@@ -127,4 +133,9 @@ ul.unstyled{
 ul li > a{
 
 	color: #419641 !important;
+}
+
+.social-media{
+
+	display: inline;
 }
