@@ -217,31 +217,30 @@
 			
 				<div class="row">
 					<h5 class="text-center">Follow Us</h5>
-					<div class="col-xs-12 col-md-3"></div>
-					<div class="col-xs-12 col-md-1">
-						<a href="https://www.facebook.com/Onecosys-1770931979792459/" target="_blank"><img src="images/facebook.png" class="img-responsive left-block" alt="Facebook Icon"></a>
+					<div class="col-xs-4 col-md-2">
+						<a href="https://www.facebook.com/Onecosys-1770931979792459/" target="_blank"><img src="images/facebook.png" class="img-responsive center-block" alt="Facebook Icon"></a>
 					</div>
-					<div class="col-xs-12 col-md-1">
-						<a href="https://www.instagram.com/onecosys/" target="_blank"><img src="images/instagram.png" class="img-responsive left-block" alt="Instagram Icon"></a>
+					<div class="col-xs-4 col-md-2">
+						<a href="https://www.instagram.com/onecosys/" target="_blank"><img src="images/instagram.png" class="img-responsive center-block" alt="Instagram Icon"></a>
 					</div>
-					<div class="col-xs-12 col-md-1">
-						<a href="https://plus.google.com/+Onecosys" target="_blank"><img src="images/googleplus.png" class="img-responsive left-block" alt="GooglePlus Icon"></a>
+					<div class="col-xs-4 col-md-2">
+						<a href="https://plus.google.com/+Onecosys" target="_blank"><img src="images/googleplus.png" class="img-responsive center-block" alt="GooglePlus Icon"></a>
 					</div>
-					<div class="col-xs-12 col-md-1">
-					<a href="https://twitter.com/getonecosys" target="_blank"><img src="images/twitter.png" class="img-responsive left-block" alt="Twitter Icon"></a>
+					<div class="col-xs-4 col-md-2">
+					<a href="https://twitter.com/getonecosys" target="_blank"><img src="images/twitter.png" class="img-responsive center-block" alt="Twitter Icon"></a>
 					</div>
-					<div class="col-xs-12 col-md-1">
-					<a href="https://snapchat.com/add/onecosys" target="_blank"><img src="images/snapchat.png" class="img-responsive left-block" alt="Snapchat Icon"></a>
+					<div class="col-xs-4 col-md-2">
+					<a href="https://snapchat.com/add/onecosys" target="_blank"><img src="images/snapchat.png" class="img-responsive center-block" alt="Snapchat Icon"></a>
 					</div>
-					<div class="col-xs-12 col-md-1">
-					<a href="https://www.youtube.com/c/onecosys" target="_blank"><img src="images/youtube.png" class="img-responsive left-block" alt="YouTube Icon"></a>
+					<div class="col-xs-4 col-md-2">
+					<a href="https://www.youtube.com/c/onecosys" target="_blank"><img src="images/youtube.png" class="img-responsive center-block" alt="YouTube Icon"></a>
 					</div>		
 				</div>	
 			
 			</div><!-- end container -->
 
 			<hr>
-			<p>&copy; 2016 OnEcoSys Ltd.</p>
+			<p>&copy; <?php echo date("Y") . " OnEcoSys Ltd. -> " . "Letzte Änderung: " . date ("F d Y H:i:s.", getlastmod()); ?></p>
 	</footer>
 
 	<script   src="http://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
